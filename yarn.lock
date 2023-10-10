@@ -381,7 +381,7 @@ __metadata:
     "@types/uuid": ^9.0.4
     async-call-rpc: ^6.3.1
     cross-env: 7.0.3
-    electron: ^26.2.2
+    electron: ^26.3.0
     electron-log: ^5.0.0-beta.29
     electron-squirrel-startup: 1.0.0
     electron-updater: ^6.1.5
@@ -460,7 +460,7 @@ __metadata:
     "@types/prettier": ^3.0.0
     i18next: ^23.5.1
     prettier: ^3.0.3
-    react-i18next: ^13.1.2
+    react-i18next: ^13.2.2
     ts-node: ^10.9.1
     typescript: ^5.2.2
   languageName: unknown
@@ -510,7 +510,7 @@ __metadata:
     "@vanilla-extract/webpack-plugin": ^2.3.1
     "@vitejs/plugin-react-swc": ^3.3.2
     "@vitest/coverage-istanbul": 0.34.5
-    "@vitest/ui": 0.34.5
+    "@vitest/ui": 0.34.6
     eslint: ^8.50.0
     eslint-config-prettier: ^9.0.0
     eslint-plugin-i: ^2.28.1
@@ -690,7 +690,7 @@ __metadata:
     reflect-metadata: ^0.1.13
     rxjs: ^7.8.1
     semver: ^7.5.4
-    sinon: ^16.0.0
+    sinon: ^16.1.0
     socket.io: ^4.7.2
     supertest: ^6.3.3
     ts-node: ^10.9.1
@@ -14354,11 +14354,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:0.34.5":
-  version: 0.34.5
-  resolution: "@vitest/ui@npm:0.34.5"
+"@vitest/ui@npm:0.34.6":
+  version: 0.34.6
+  resolution: "@vitest/ui@npm:0.34.6"
   dependencies:
-    "@vitest/utils": 0.34.5
+    "@vitest/utils": 0.34.6
     fast-glob: ^3.3.0
     fflate: ^0.8.0
     flatted: ^3.2.7
@@ -14367,7 +14367,7 @@ __metadata:
     sirv: ^2.0.3
   peerDependencies:
     vitest: ">=0.30.1 <1"
-  checksum: 49ce5df1b28b4ca2b1a8877d4c4e58d740071406541b6aae2687760ffa2e4344095f96f883cfc7f1cd09dc139e5d07817198e9720158578cd2cfe32bcecc00d9
+  checksum: aaea587823d38bf5bb1961bbfdddacd42bbcedd7a6f771d8e26f5f597267655a19527434099b11013d00100ddb25a9550d55d1a275c08763dc67407ac7d3baa1
   languageName: node
   linkType: hard
 
@@ -14379,6 +14379,17 @@ __metadata:
     loupe: ^2.3.6
     pretty-format: ^29.5.0
   checksum: 86f40d3acd43170c2fe9ca6478e57b840851cfba173a31282e2967322c9d98e0210c8399e97aeff26dc9354f00af79a6986332cfbcfeec4d067404b952f2d89f
+  languageName: node
+  linkType: hard
+
+"@vitest/utils@npm:0.34.6":
+  version: 0.34.6
+  resolution: "@vitest/utils@npm:0.34.6"
+  dependencies:
+    diff-sequences: ^29.4.3
+    loupe: ^2.3.6
+    pretty-format: ^29.5.0
+  checksum: acf716af2bab66037e49bd6d3e8bae40b605b9bff515d4926c46d6f8cc2366decfac5a1756ea55029968e71fba1da1f992764c3a57c9b46eccce3f6db7197bd6
   languageName: node
   linkType: hard
 
@@ -19228,16 +19239,16 @@ __metadata:
   languageName: node
   linkType: soft
 
-"electron@npm:^26.2.2":
-  version: 26.2.2
-  resolution: "electron@npm:26.2.2"
+"electron@npm:^26.3.0":
+  version: 26.3.0
+  resolution: "electron@npm:26.3.0"
   dependencies:
     "@electron/get": ^2.0.0
     "@types/node": ^18.11.18
     extract-zip: ^2.0.1
   bin:
     electron: cli.js
-  checksum: 4e2f642475454836256925be81995a9d28bb21bcdaabdb714c5dc36dbf3b5ad8d8214b64d9290c4b8b07b8f6b6914074c61915e1c104fc7e1e1600b2c6d75ff5
+  checksum: e904f7a7a3281d0cbf899ce06199f71dd7db9553f6650a7a2dda5001e3a4026933554ce44da2f3106500623aa28a10e4b5f9b42599f5442af11983f032d18275
   languageName: node
   linkType: hard
 
@@ -29710,9 +29721,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:^13.1.2":
-  version: 13.2.1
-  resolution: "react-i18next@npm:13.2.1"
+"react-i18next@npm:^13.2.2":
+  version: 13.2.2
+  resolution: "react-i18next@npm:13.2.2"
   dependencies:
     "@babel/runtime": ^7.22.5
     html-parse-stringify: ^3.0.1
@@ -29724,7 +29735,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: aa3bd7b0f9f3d794e756a7fe087471c20c13dc2fbf5e53400403a356973d87a1b76f0204720081914bd06cb94d92bf987ebbf33c3de3c67a0cc9b32dde8972f1
+  checksum: 2b85bfb347af1a00add1c02901025706f7d2037fade4e8aa08159287ddf012e8cf35626eb9f5c578b9d1c24c065c69f2ad4b5a3087fb5cdbea540f8bc18c0f59
   languageName: node
   linkType: hard
 
@@ -31287,9 +31298,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sinon@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "sinon@npm:16.0.0"
+"sinon@npm:^16.1.0":
+  version: 16.1.0
+  resolution: "sinon@npm:16.1.0"
   dependencies:
     "@sinonjs/commons": ^3.0.0
     "@sinonjs/fake-timers": ^10.3.0
@@ -31297,7 +31308,7 @@ __metadata:
     diff: ^5.1.0
     nise: ^5.1.4
     supports-color: ^7.2.0
-  checksum: fbcad39d1610c669bb37ce2d325f2ac666ff5187935d09d1e757e11c50d07b8556b7dfa322eb38ad6ace8a18912224cc502e990779bc3d0954244a1ae8391984
+  checksum: b3f910e9b3d28f1241b28ac9d384f45c673b64ecfabf7ca2b94c964036118bd4166a2315f2ec2379a85745a7d4840384514aca416bbf189508a9d7fb55b9d5a8
   languageName: node
   linkType: hard
 
